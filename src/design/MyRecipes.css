@@ -1,0 +1,87 @@
+.myrecipes_section {
+    text-align: center;
+}
+
+.myrecipes_section h1 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #454545;
+    margin: 3em 0 .7em 0;
+}
+
+.myrecipes_section p {
+    text-align: center;
+    width: 40em;
+    margin: auto;
+    color: #454545;
+    font-style: italic;
+    font-size: 1.2em;
+}
+
+.myrecipes_section button {
+    background: transparent;
+    padding: .8em;
+    border: 2px #454545 solid;
+    margin: 3.5em 0 2.5em 0;
+    transition-duration: .5s;
+    font-size: 1em;
+}
+
+.myrecipes_section button svg {
+    padding-right: .7em;
+}
+
+.myrecipes_section button:hover {
+    background: #454545;
+    color: bisque;
+    border: 2px transparent solid;
+    cursor: pointer;
+}
+
+.create_recipe_form {
+    color: #454545;
+    font-size: 1.4em;
+    height: -moz-fit-content;
+    height: fit-content;
+    left: 50%;
+    position: fixed;
+    z-index: 15;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: -moz-fit-content;
+    width: fit-content;
+    background: #FFF3E2;
+    box-shadow: 0 8px 32px 0 rgba( 0, 0, 0, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding: 1em 2em;
+    transition-duration: .3s;
+}
+
+.create_recipe_form input {
+    display: block;
+    background: transparent;
+    border: 0;
+    border-bottom: 2px #454545 solid;
+    margin-bottom: 3em;
+    width: 17em;
+}
+
+.create_recipe_form input:focus-visible {
+    outline: none;
+}
+
+.create_recipe_form svg {
+    color: #ff5c5c;
+    left: 100%;
+    top: 0;
+    position: absolute;
+    padding: .6em;
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+}
+
+.create_recipe_form svg:hover {
+    cursor: pointer;
+}

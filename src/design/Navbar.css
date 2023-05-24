@@ -1,0 +1,52 @@
+.navbar_grid {
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    background-color: rgba(0, 0, 0, .7);
+    display: grid;
+    grid-template-columns: 70% auto auto auto;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding: 1em 0;
+    font-size: 1.3em;
+    font-family: cursive;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 2;
+}
+
+ul.navbar_grid button {
+    color: bisque;
+    display: inline-block;
+    text-decoration: none;
+    transition-duration: .5s;
+    background: inherit;
+    border: none;
+    font: unset;
+}
+
+ul.navbar_grid button:hover{
+    cursor: pointer;
+}
+
+ul.navbar_grid li a {
+    color: bisque;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: .5s;
+}
+
+ul.navbar_grid li a:hover {
+    transform: scale(1.1);
+}
+
+ul.navbar_grid li:not(:first-child) {
+    text-align: right;
+    padding-right: 1em;
+}
+
+ul.navbar_grid li:first-child {
+    text-align: left;
+    padding-left: 1em;
+}

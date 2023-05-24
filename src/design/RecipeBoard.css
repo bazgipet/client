@@ -1,0 +1,51 @@
+.recipeBoard {
+    margin-bottom: 5em;
+    text-align: center;
+}
+
+
+.recipeBoard .search_recipe {
+    border-radius: 12px;
+    display: inline-block;
+    border: 2px #454545 solid;
+    position: relative;
+    margin-bottom: 4em;
+}
+
+.search_recipe input {
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    padding: .5em 1em;
+    font-size: 1.2em;
+    color: #454545;
+}
+
+.search_recipe input:focus-visible {
+    outline: none;
+}
+
+.search_recipe svg {
+    padding: .5em;
+    vertical-align: -webkit-baseline-middle;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+ul.smoothie_grid {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    gap: 2em;
+}
+
+.recipeBoard h2 {
+    color: #454545;
+    font-size: 2.3em;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}

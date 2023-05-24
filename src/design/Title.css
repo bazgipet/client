@@ -1,0 +1,23 @@
+.title_section {
+    background-image: url('../img/bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+main.head_part {
+    color: bisque;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translate(-5%, -50%);
+    width: 50%;
+}
+
+main.head_part h1 {
+    font-size: 5em;
+}
+main.head_part p {
+    font-size: 3em;
+}
